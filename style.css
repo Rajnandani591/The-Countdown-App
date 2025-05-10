@@ -63,3 +63,26 @@ background-repeat: no-repeat;
   h4{
     color: blanchedalmond;
   }
+/* Responsive styling */
+@media (max-width: 720px) {
+    h2, h4 {
+        font-size: 24px;
+        margin: 20px;
+    }
+
+    .col {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col div {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    input {
+        width: 80%;
+        font-size: 18px;
+    }
+}
